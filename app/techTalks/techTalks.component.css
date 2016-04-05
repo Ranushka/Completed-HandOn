@@ -1,0 +1,70 @@
+.middle-section{
+    width:100%;
+    padding: 20px 24px;
+    box-sizing: border-box;
+    height: auto;
+    background: url(../images/bg-grey.jpg) top center;
+    display: block;
+    float: left;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+h2:after{
+    display: block;
+    content: '';
+    width: calc(100% - 200px);
+    height: 5px;
+    background: #c81122;
+    margin-top: 8px;
+    float: right;
+}
+
+.techTalks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.techTalks li {
+    height: 38px;
+    line-height: 38px;
+    border-radius:0;
+    background: rgba(255,255,255, .1);
+    cursor: default;
+    margin-bottom: 1px;
+}
+
+.techTalks li .badge {
+    width: 38px;
+    background: #c81122;
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+}
+
+.techTalks li .name {
+    display: inline-block;
+    padding: 0 12px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.techTalks li:hover {
+    position: relative;
+    background: rgba(255,255,255, .3);
+}
+
+.techTalks li:hover .badge {
+    background: #B52E31;
+}

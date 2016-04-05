@@ -1,0 +1,10 @@
+<section>
+    <div class="top-section">
+        <h1>Meetup <span>2016</span></h1>
+        <nav>
+            <a [routerLink]="['TechTalks']" [class.active]="activeTab == 'TechTalks'" (click) = "setActiveTab('TechTalks')">Tech Talks</a>
+            <a [routerLink]="['Speakers']" [class.active]="activeTab == 'Speakers'" (click) = "setActiveTab('Speakers')">Speakers</a>
+        </nav>
+        <router-outlet></router-outlet>
+    </div>
+</section>
