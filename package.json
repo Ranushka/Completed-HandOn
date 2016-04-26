@@ -2,12 +2,10 @@
   "name": "Angular-Meetup",
   "version": "1.0.0",
   "scripts": {
-    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",    
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
-    "typings": "typings",
-    "postinstall": "typings install" 
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
   },
   "license": "ISC",
   "dependencies": {
